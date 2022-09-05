@@ -33,7 +33,7 @@ jobs:
       - name: Build App
         run: yarn build
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@1.2
+        uses: nwtgck/actions-netlify@v1.2
         with:
           production-deploy: true
           production-branch: main
